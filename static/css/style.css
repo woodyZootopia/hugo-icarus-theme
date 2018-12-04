@@ -24,7 +24,6 @@ h5,
 h6,
 p,
 blockquote,
-pre,
 a,
 abbr,
 acronym,
@@ -128,15 +127,25 @@ a {
 a:visited {
   color: #38b7ea;
 }
-code {
+:not(pre) > code {
   margin: 0 2px;
-  color: #e96900;
+  color: #0A2B7C;
+  background-color: #E1F6FF;
   padding: 3px 5px;
   font-size: 0.8em;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  background-color: #f8f8f8;
+}
+pre {
+  margin: 0 2px;
+  color: #0A2B7C;
+  background-color: #EFFAFF;
+  padding: 3px 5px;
+  font-size: 0.8em;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .outer {
   max-width: 1320px;
