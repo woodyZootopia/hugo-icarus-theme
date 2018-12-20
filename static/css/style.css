@@ -129,8 +129,8 @@ a:visited {
 }
 :not(pre) > code {
   margin: 0 2px;
-  color: #0A2B7C;
-  background-color: #E8F8FF;
+  color: #fff;
+  background: #334245;
   padding: 3px 5px;
   font-size: 0.8em;
   -webkit-border-radius: 2px;
@@ -139,8 +139,8 @@ a:visited {
 }
 pre {
   margin: 0 2px;
-  color: #0A2B7C;
-  background-color: #EFFAFF;
+  color: #fff;
+  background: #334245;
   padding: 3px 5px;
   font-size: 0.8em;
   -webkit-border-radius: 2px;
@@ -2108,8 +2108,8 @@ ol.toc {
   height: 1.6em;
 }
 .highlight {
-  color: #ddd;
-  background: #272822;
+  color: #E3E3E3;
+  background: #334245;
 }
 .highlight .code .tag,
 .highlight .code .keyword,
