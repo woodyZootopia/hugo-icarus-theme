@@ -2165,8 +2165,9 @@ ol.toc {
   font-weight: bold;
 }
 #TableOfContents {
-  position: fixed;
-  height: 70vh;
+  position: sticky;
+  top:0;
+  max-height: calc(100vh - 85px);
   overflow:scroll;
   margin-top: 40px;
   padding-right: 20px;
