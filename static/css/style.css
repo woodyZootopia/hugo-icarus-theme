@@ -817,6 +817,9 @@ pre {
   z-index: 0;
   border-color: transparent transparent #dbdee1 transparent;
 }
+.hidden-card {
+  display:none;
+}
 .article {
   margin: 40px 0;
 }

@@ -25,9 +25,11 @@
     // Profile card
     $(document).on('click', function () {
         $('#profile').removeClass('card');
+        $('#hidden-card').addClass('hidden-card');
     }).on('click', '#profile-anchor', function (e) {
         e.stopPropagation();
         $('#profile').toggleClass('card');
+        $('#hidden-card').toggleClass('hidden-card');
     }).on('click', '.profile-inner', function (e) {
         e.stopPropagation();
     });

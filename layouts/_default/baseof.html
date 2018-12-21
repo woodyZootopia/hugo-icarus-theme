@@ -6,6 +6,10 @@
    	<div class="outer">
    	{{ if not .Params.disable_profile }}
     	{{ partialCached "profile" . }}
+    {{ else }}
+      <div id="hidden-card" class="hidden-card">
+        {{ partialCached "profile" . }}
+      </div>
     {{ end }}
 
     {{ if .Params.disable_profile }}
