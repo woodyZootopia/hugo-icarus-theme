@@ -5,6 +5,8 @@ Current advantage to the "original" hugo is:
 * Program code is written in dark theme.
 * Weird spacing in the beginning of line of when you write program code is removed.
 * When you disabled your profile (`disable_profile: true`), the main body will be expanded.
+* When your post directory contained `post`, your widgets will be replaced with Table of Contents.
+ * For example, Most of my posts in [my blog](https://woodyzootopia.github.io/) are in `/content/post/` directory, and their widgets are replaced.
 
 Below is a copy of original README.md.
 
