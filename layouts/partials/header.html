@@ -24,7 +24,7 @@
           {{ end }}
           {{ end }}
       </nav>
-      {{ if in .File.Dir "post" }}
+      {{ if .Params.disable_profile }}
         <nav id="sub-nav">
           <div class="profile" id="profile-nav">
             <a id="profile-anchor" href="javascript:;"><img class="avatar" src="{{ .Site.Params.avatar | absURL }}"><i class="fa fa-caret-down"></i></a>
