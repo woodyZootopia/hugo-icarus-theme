@@ -1,14 +1,14 @@
 {{ if in .File.Dir "post" }}
-{{ .TableOfContents }}
-<aside id="sidebar">
-  <div id="toTop" class="fa fa-angle-up"></div>
-</aside>
+  {{ .TableOfContents }}
+  <aside id="sidebar">
+    <div id="toTop" class="fa fa-angle-up"></div>
+  </aside>
 {{ else }}
-<aside id="sidebar">
-  {{ partial "widgets/recent_articles" . }}
-  {{ partial "widgets/categories" . }}
-  {{ partial "widgets/tags" . }}
-  {{ partial "widgets/tag_cloud" . }}
-  <div id="toTop" class="fa fa-angle-up"></div>
-</aside>
+  <aside id="sidebar">
+    {{ partial "widgets/recent_articles" . }}
+    {{ partial "widgets/categories" . }}
+    {{ partial "widgets/tags" . }}
+    {{ partial "widgets/tag_cloud" . }}
+    <div id="toTop" class="fa fa-angle-up"></div>
+  </aside>
 {{ end }}
