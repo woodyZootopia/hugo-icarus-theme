@@ -198,9 +198,21 @@ pre {
     width: 52.307692307692314%;
     margin: 0 0.769230769230769%;
   }
+  #main-without-profile {
+    display: inline;
+    float: left;
+    width: 74.615384615384623%;
+    margin: 0 0.769230769230769%;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
   #main {
+    display: inline;
+    float: left;
+    width: 90.000000000000009%;
+    margin: 0 0.769230769230769%;
+  }
+  #main-without-profile {
     display: inline;
     float: left;
     width: 67.6923076923077%;
