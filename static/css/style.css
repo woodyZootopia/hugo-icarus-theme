@@ -2181,6 +2181,7 @@ ol.toc {
 }
 #TableOfContents {
   position: sticky;
+  position: -webkit-sticky;
   top:10px;
   max-height: calc(100vh - 100px);
   overflow:scroll;
