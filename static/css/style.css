@@ -2191,3 +2191,15 @@ ol.toc {
 #TableOfContents a:hover {
   color: #333;
 }
+#TableOfContents ul {
+  list-style:disc;
+}
+#TableOfContents ul ul {
+  list-style:circle;
+}
+#TableOfContents ul ul ul {
+  list-style:square;
+}
+#TableOfContents ul ul ul ul {
+  list-style:disc;
+}
