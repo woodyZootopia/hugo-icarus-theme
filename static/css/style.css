@@ -337,10 +337,6 @@ pre {
   margin-top: 0;
   margin-bottom: 0;
 }
-.article-entry ul,
-.widget ul {
-  list-style: disc;
-}
 .article-entry ol,
 .widget ol {
   list-style: decimal;
@@ -2194,7 +2190,7 @@ ol.toc {
   max-height: calc(100vh - 100px);
   overflow:scroll;
   margin-top: 40px;
-  padding-right: 20px;
+  padding: 10px 0px 10px 10px;
   background:#f5f5f5;
 }
 #TableOfContents ul {
@@ -2206,15 +2202,15 @@ ol.toc {
 #TableOfContents a:hover {
   color: #23527c;
 }
-#TableOfContents ul {
+* ul {
   list-style:disc;
 }
-#TableOfContents ul ul {
-  list-style:circle;
-}
-#TableOfContents ul ul ul {
+* ul ul {
   list-style:square;
 }
-#TableOfContents ul ul ul ul {
+* ul ul ul {
+  list-style:circle;
+}
+* ul ul ul ul {
   list-style:disc;
 }
