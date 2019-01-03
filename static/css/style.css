@@ -137,6 +137,7 @@ pre {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 :not(pre) > code {
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   color: #666;
   background: #f0f0f0;
   padding: 0px 5px;
