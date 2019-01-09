@@ -120,11 +120,11 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 a {
-  color: #3b94d9;
+  color: #1a0dab;
   text-decoration: none;
 }
 a:visited {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 pre {
   margin: 0 2px;
@@ -232,7 +232,7 @@ pre {
 .archive-article-header a:visited:hover,
 .layout-wrap-inner.tag-cloud a:visited:hover,
 .timeline-row .content h1 a:visited:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .article-meta,
 .archive-year,
@@ -360,7 +360,7 @@ pre {
   color: #333;
 }
 #header a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .header-inner #logo,
 #main-nav,
@@ -577,7 +577,7 @@ pre {
 .search-form-input.ins-search-input:focus,
 .search-form-input.st-ui-search-input:focus,
 .search-form-input.st-default-search-input:focus {
-  border-color: #3b94d9!important;
+  border-color: #1a0dab!important;
 }
 .search-form-input::-webkit-search-results-decoration,
 .search-form-input.ins-search-input::-webkit-search-results-decoration,
@@ -851,7 +851,7 @@ a.article-title:visited {
   color: #4b5053;
 }
 a.article-title:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 @media screen and (max-width: 559px) {
   .article-title {
@@ -885,7 +885,7 @@ a.article-title:hover {
   color: #4b5053;
 }
 .article-meta a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .article-category .fa-angle-right {
   margin: 0 5px;
@@ -925,10 +925,11 @@ a.article-title:hover {
   margin: 1.3em 0;
 }
 .article-entry a {
-  color: #3b94d9;
-  text-decoration: none;
+  color: #1a0dab;
+  text-decoration: underline;
 }
 .article-entry a:hover {
+  color: #4dc4ff;
   text-decoration: underline;
 }
 .article-entry ul,
@@ -1038,7 +1039,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
   text-decoration: none;
 }
 .article-footer {
@@ -1350,7 +1351,7 @@ ol.toc {
   margin: 40px 0;
 }
 #comments a {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .archives:before,
 .archives:after {
@@ -1395,7 +1396,7 @@ ol.toc {
 .archive-category-wrap .archive-year:hover,
 .archive-tag-wrap .archive-year:hover,
 .layout-title .archive-year:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 @media screen and (max-width: 559px) {
   .layout-wrap-inner {
@@ -1568,7 +1569,7 @@ ol.toc {
   text-decoration: none;
 }
 #page-nav a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 #page-nav .page-number {
   display: inline-block;
@@ -1622,7 +1623,7 @@ ol.toc {
   border-radius: 50%;
   margin: 11px 0 0 -8px;
   display: inline-block;
-  background-color: #3b94d9;
+  background-color: #1a0dab;
 }
 .timeline-row .content {
   margin-left: 25px;
@@ -1682,7 +1683,7 @@ ol.toc {
   margin-bottom: 0;
 }
 #footer a {
-  color: #3b94d9;
+  color: #1a0dab;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1774,7 +1775,7 @@ ol.toc {
   text-decoration: none;
 }
 .widget a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .widget ul ul,
 .widget ol ul,
@@ -1927,7 +1928,7 @@ ol.toc {
 }
 #recent-post li .item-inner a a,
 #recent-post li .item-inner .item-category a {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 #recent-post li .item-inner a a:hover,
 #recent-post li .item-inner .item-category a:hover {
@@ -1958,7 +1959,7 @@ ol.toc {
   opacity: 0.8;
 }
 #recent-post li:hover .item-title a {
-  color: #3b94d9;
+  color: #1a0dab;
 }
 .ins-search {
   display: none;
@@ -2201,7 +2202,8 @@ ol.toc {
   color: #333;
 }
 #TableOfContents a:hover {
-  color: #3b94d9;
+  color: #1a0dab;
+  text-decoration: underline;
 }
 * ul {
   list-style:disc;
