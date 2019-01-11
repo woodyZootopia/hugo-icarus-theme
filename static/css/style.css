@@ -126,7 +126,7 @@ a {
 a:visited {
   color: #1a0dab;
 }
-pre {
+pre.chroma {
   margin: 0 2px;
   color: #666;
   background: #f0f0f0;
@@ -2127,10 +2127,6 @@ ol.toc {
 }
 .article-entry .highlight .line {
   height: 1.6em;
-}
-.highlight {
-  color: #E3E3E3;
-  background: #334245;
 }
 .highlight .code .tag,
 .highlight .code .keyword,
