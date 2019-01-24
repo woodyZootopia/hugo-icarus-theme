@@ -12,6 +12,7 @@
             <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
             /
             <time datetime="{{ .GitInfo.AuthorDate }}" itemprop="dateEdited">{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.UTC }}</time>
+            更新
 
             <!-- &middot; -->
             <!-- {{ .GitInfo.AuthorDate }} -->

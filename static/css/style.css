@@ -816,11 +816,11 @@ pre.chroma {
   z-index: 1;
   content: '';
   top: -20px;
-  right: 10px;
+  right: 30px;
   position: absolute;
   border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent #f5f5f5 transparent;
 }
 #profile.card .profile-inner:after {
   z-index: 0;
@@ -834,6 +834,7 @@ pre.chroma {
 }
 .article-inner {
   overflow: hidden;
+  border-radius:30px;
 }
 .article-banner {
   width: 100%;
@@ -1700,6 +1701,8 @@ ol.toc {
 }
 @media screen and (min-width: 1200px) {
   #sidebar {
+  background:#f5f5f5;
+    border-radius:30px;
     display: inline;
     float: left;
     width: 21.53846153846154%;
@@ -1709,6 +1712,7 @@ ol.toc {
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
   #sidebar {
+  background:#f5f5f5;
     display: inline;
     float: left;
     width: 29.230769230769234%;
@@ -1762,7 +1766,6 @@ ol.toc {
 }
 .widget-wrap {
   padding: 20px 10px;
-  background:#f5f5f5;
 }
 @media screen and (max-width: 559px) {
   .widget-wrap {
@@ -2221,4 +2224,7 @@ ol.toc {
 }
 .footnote-ref > a {
   padding:1px 4px;
+}
+.profile-inner {
+  border-radius:30px;
 }
