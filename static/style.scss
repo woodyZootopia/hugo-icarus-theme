@@ -192,6 +192,10 @@ pre.chroma {
 }
 @media screen and (min-width: 1200px) {
     #main {
+        display:inline;
+        float:left;
+        width:52.30%;
+        margin: 0 0.769%;
         display: inline;
     }
     #main-without-profile {
@@ -1839,158 +1843,6 @@ ol.toc {
         height: 48px;
         font-size: 32px;
         line-height: 48px;
-    }
-}
-#recent-post li {
-    padding: 10px 0 10px 94px;
-}
-#recent-post li:before,
-#recent-post li:after {
-    content: "";
-    display: table;
-}
-#recent-post li:after {
-    clear: both;
-}
-#recent-post.no-thumbnail li {
-    padding: 10px 0px;
-}
-#recent-post li .item-thumbnail {
-    opacity: 1;
-    float: left;
-    margin-left: -94px;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-#recent-post li .item-thumbnail .thumbnail {
-    width: 80px;
-    height: 80px;
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
-#recent-post li .item-thumbnail .thumbnail span {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-#recent-post li .item-thumbnail .thumbnail .thumbnail-image {
-    position: absolute;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-#recent-post li .item-thumbnail .thumbnail .thumbnail-none {
-    background-image: url("images/thumb-default-small.png");
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-size: 100% 100%;
-}
-#recent-post li .item-inner a,
-#recent-post li .item-inner .item-category {
-    font-size: 13px;
-    text-transform: uppercase;
-}
-#recent-post li .item-inner a a,
-#recent-post li .item-inner .item-category a {
-    color: #1a0dab;
-}
-#recent-post li .item-inner a a:hover,
-#recent-post li .item-inner .item-category a:hover {
-    color: #333;
-}
-#recent-post li .item-inner a a,
-#recent-post li .item-inner .item-category a,
-#recent-post li .item-inner a .fa,
-#recent-post li .item-inner .item-category .fa {
-    margin-right: 5px;
-}
-#recent-post li .item-inner .item-title {
-    font-size: 15px;
-}
-#recent-post li .item-inner .item-title a {
-    color: #333;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-#recent-post li .item-inner .item-date {
-    color: #aaa;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-#recent-post li:hover .item-thumbnail {
-    opacity: 0.8;
-}
-#recent-post li:hover .item-title a {
-    color: #1a0dab;
-}
-.ins-search {
-    display: none;
-}
-.ins-search.show {
-    display: block;
-}
-.ins-selectable {
-    cursor: pointer;
-}
-.ins-search-mask,
-.ins-search-container {
-    position: fixed;
-}
-.ins-search-mask {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    background: rgba(0,0,0,0.5);
-}
-.ins-input-wrapper {
-    position: relative;
-}
-.ins-search-input {
-    width: 100%;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    font-weight: 200;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    background: #fff;
-    line-height: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 12px 28px 12px 20px;
-    border-bottom: 1px solid #e2e2e2;
-    font-family: "Microsoft Yahei Light", "Microsoft Yahei", Helvetica, Arial, sans-serif;
-}
-.ins-close {
-    top: 50%;
-    right: 6px;
-    width: 20px;
-    height: 20px;
-    font-size: 16px;
-    margin-top: -11px;
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-}
-@media screen and (max-width: 559px), screen and (max-height: 479px) {
-    .ins-search-container {
-        top: 0;
-        left: 0;
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        background: #f7f7f7;
     }
 }
 .highlight {
