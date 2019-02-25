@@ -193,9 +193,6 @@ pre.chroma {
 @media screen and (min-width: 1200px) {
     #main {
         display: inline;
-        float: left;
-        width: 52.307692307692314%;
-        margin: 0 0.769230769230769%;
     }
     #main-without-profile {
         display: inline;
@@ -550,10 +547,7 @@ pre.chroma {
 #search-form-wrap .search-form .search-form-submit:focus {
     color: #777;
 }
-.search-form-input,
-.search-form-input.ins-search-input,
-.search-form-input.st-ui-search-input,
-.search-form-input.st-default-search-input {
+.search-form-input {
     -webkit-appearance: textarea;
     -webkit-appearance: textarea;
     -moz-appearance: textarea;
@@ -574,43 +568,23 @@ pre.chroma {
     line-height: 1.6em;
     outline: none !important;
     background: none !important;
-    font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    font: $font;
     border: 1px solid #eceff2 !important;
 }
-.search-form-input:focus,
-.search-form-input.ins-search-input:focus,
-.search-form-input.st-ui-search-input:focus,
-.search-form-input.st-default-search-input:focus {
+.search-form-input:focus {
     border-color: #1a0dab!important;
 }
-.search-form-input::-webkit-search-results-decoration,
-.search-form-input.ins-search-input::-webkit-search-results-decoration,
-.search-form-input.st-ui-search-input::-webkit-search-results-decoration,
-.search-form-input.st-default-search-input::-webkit-search-results-decoration,
-.search-form-input::-webkit-search-cancel-button,
-.search-form-input.ins-search-input::-webkit-search-cancel-button,
-.search-form-input.st-ui-search-input::-webkit-search-cancel-button,
-.search-form-input.st-default-search-input::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #555;
-    opacity: 1; /* Firefox */
-}
 
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: #555;
-}
 #main-nav-mobile {
     overflow-y: hidden;
     overflow-x: auto;
+    .menu {
+        margin: 0;
+        height: 48px;
+    }
+
 }
-#main-nav-mobile .menu {
-    margin: 0;
-    height: 48px;
-}
-#main-nav-mobile .menu:before,
+#main-nav-mobile #main-nav-mobile .menu:before,
 #main-nav-mobile .menu:after {
     content: "";
     display: table;
@@ -2009,20 +1983,6 @@ ol.toc {
     text-align: center;
     display: inline-block;
 }
-.ins-close:hover {
-    color: #006bde;
-}
-.ins-search-container {
-    left: 50%;
-    top: 100px;
-    z-index: 101;
-    bottom: 100px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 540px;
-    margin-left: -270px;
-}
 @media screen and (max-width: 559px), screen and (max-height: 479px) {
     .ins-search-container {
         top: 0;
@@ -2032,66 +1992,6 @@ ol.toc {
         height: 100%;
         background: #f7f7f7;
     }
-}
-.ins-section-wrapper {
-    left: 0;
-    right: 0;
-    top: 45px;
-    bottom: 0;
-    overflow-y: auto;
-    position: absolute;
-}
-.ins-section-container {
-    position: relative;
-    background: #f7f7f7;
-}
-.ins-section {
-    font-size: 14px;
-    line-height: 16px;
-}
-.ins-section .ins-section-header,
-.ins-section .ins-search-item {
-    padding: 8px 15px;
-}
-.ins-section .ins-section-header {
-    color: #9a9a9a;
-    border-bottom: 1px solid #e2e2e2;
-}
-.ins-section .ins-slug {
-    margin-left: 5px;
-    color: #9a9a9a;
-}
-.ins-section .ins-slug:before {
-    content: '(';
-}
-.ins-section .ins-slug:after {
-    content: ')';
-}
-.ins-section .ins-search-item header,
-.ins-section .ins-search-item .ins-search-preview {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.ins-section .ins-search-item header .fa {
-    margin-right: 8px;
-}
-.ins-section .ins-search-item .ins-search-preview {
-    height: 15px;
-    font-size: 12px;
-    color: #9a9a9a;
-    margin: 5px 0 0 20px;
-}
-.ins-section .ins-search-item:hover,
-.ins-section .ins-search-item.active {
-    color: #fff;
-    background: #006bde;
-}
-.ins-section .ins-search-item:hover .ins-slug,
-.ins-section .ins-search-item.active .ins-slug,
-.ins-section .ins-search-item:hover .ins-search-preview,
-.ins-section .ins-search-item.active .ins-search-preview {
-    color: #fff;
 }
 .highlight {
     margin: 0px;
