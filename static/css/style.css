@@ -929,6 +929,7 @@ a.article-title:hover {
 .article-entry h6 {
   line-height: 1.3em;
   margin: 1.3em 0;
+  font-weight:bolder;
 }
 .article-entry a {
   color: #1a0dab;
