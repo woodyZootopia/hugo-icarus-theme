@@ -5,6 +5,8 @@ $link_color:#1a0dab;
 $code_color:#444;
 $header_char_color:#333;
 $breakpoint_mobile:768px;
+$pane_border_radius:21px;
+$small_pane_border_radius: 15px;
 
 body:before,
 body:after {
@@ -14,62 +16,9 @@ body:after {
 body:after {
     clear: both;
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
+
+body {
+    color: $body_char_color;
     margin: 0;
     padding: 0;
     border: 0;
@@ -79,9 +28,6 @@ td {
     font-family: inherit;
     font-size: 100%;
     vertical-align: baseline;
-}
-body {
-    color: $body_char_color;
 }
 table {
     border-collapse: separate;
@@ -526,8 +472,8 @@ pre.chroma {
     padding: 0 30px 0 15px;
     line-height: 40px;
     height: 40px !important;
-    -webkit-border-radius: 21px;
-    border-radius: 21px;
+    -webkit-border-radius: $pane_border_radius;
+    border-radius: $pane_border_radius;
 }
 #search-form-wrap .search-form .search-form-input::-webkit-search-results-decoration,
 #search-form-wrap .search-form .search-form-input::-webkit-search-cancel-button {
@@ -1055,6 +1001,9 @@ pre.chroma {
 }
 #article-nav {
     position: relative;
+    background-color: $primary_color;
+    -webkit-border-radius: $small_pane_border_radius;
+    border-radius: $small_pane_border_radius;
 }
 #article-nav:before,
 #article-nav:after {
