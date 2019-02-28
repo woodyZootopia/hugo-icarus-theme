@@ -13,14 +13,6 @@
             /
             <time datetime="{{ .GitInfo.AuthorDate }}" itemprop="dateEdited">{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.UTC }}</time>
             更新
-
-            <!-- &middot; -->
-            <!-- {{ .GitInfo.AuthorDate }} -->
-            <!-- {{ .WordCount }} -->
-            <!-- {{ with .Site.Data.l10n.articles.words }}{{.}}{{end}} -->
-            <!-- &middot; -->
-            <!-- {{ .ReadingTime }} -->
-            <!-- {{ with .Site.Data.l10n.articles.readingtime }}{{.}}{{end}} -->
         </div>
         {{ end }}
         {{ if isset .Params "categories" }}
