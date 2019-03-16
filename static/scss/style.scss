@@ -1,4 +1,4 @@
-$font:14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+$font:17px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 $primary_color:#f0f0f0;
 $body_char_color:#000;
 $dark_gray_char_color:#4b5053;
@@ -291,6 +291,7 @@ pre.chroma {
     }
     img, video {
         max-width: 80%;
+        max-height:300px;
         height: auto;
         display: block;
         margin: auto;
