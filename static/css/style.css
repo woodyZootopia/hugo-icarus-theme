@@ -88,7 +88,6 @@ pre.chroma {
   color: #444;
   background: #f0f0f0;
   padding: 5px 5px;
-  font-size: 0.8em;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
@@ -2289,6 +2288,7 @@ ol.toc {
 
 /* line 1741, ../scss/style.scss */
 #TableOfContents {
+  font-size: 0.8em;
   position: sticky;
   position: -webkit-sticky;
   top: 10px;
