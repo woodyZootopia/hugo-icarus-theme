@@ -1084,6 +1084,7 @@ pre.chroma {
 
 /* line 846, ../scss/style.scss */
 .article-header .article-title {
+  font-weight:normal;
   display: block;
   margin-top: 0px;
   margin-bottom: 14px;
