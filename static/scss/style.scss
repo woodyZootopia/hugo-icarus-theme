@@ -8,6 +8,8 @@ $header_char_color:#333;
 $breakpoint_mobile:768px;
 $pane_border_radius:30px;
 $small_pane_border_radius: 15px;
+$inner_opacity:0.85;
+$semi_transparent_background_color:#ffffff;
 
 body {
     color: $body_char_color;
@@ -191,7 +193,7 @@ pre.chroma {
 .archive-article,
 .timeline-row .content,
 #toTop {
-    background: #f5f5f5;
+    background: #ffffff;
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
@@ -380,7 +382,7 @@ pre.chroma {
 }
 
 #header {
-    background: #f5f5f5;
+    background: #ffffff;
     position: relative;
     a, a:visited {
         white-space: nowrap;
@@ -819,7 +821,7 @@ pre.chroma {
     position: absolute;
     border-width: 10px;
     border-style: solid;
-    border-color: transparent transparent #f5f5f5 transparent;
+    border-color: transparent transparent $semi_transparent_background_color transparent;
 }
 #profile.card .profile-inner:after {
     z-index: 0;
@@ -894,7 +896,8 @@ pre.chroma {
     margin: 6px 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    background: #f5f5f5;
+    background: $semi_transparent_background_color;
+    opacity:$inner_opacity;
     color: #777;
     text-shadow: 0 1px #fff;
     text-decoration: none;
@@ -1354,7 +1357,8 @@ ol.toc {
     margin-top: 8px;
 }
 .layout-wrap {
-    background: #f5f5f5;
+    background: $semi_transparent_background_color;
+    opacity:$inner_opacity;
     margin-top:40px;
     padding-bottom:20px;
     -webkit-border-radius: $pane_border_radius;
@@ -1410,7 +1414,8 @@ ol.toc {
     margin: 40px auto;
     text-align: center;
     color: #333;
-    background: #f5f5f5;
+    background: $semi_transparent_background_color;
+    opacity:$inner_opacity;
     overflow: hidden;
 }
 #page-nav:before,
@@ -1562,7 +1567,8 @@ ol.toc {
 }
 @media screen and (min-width: 1200px) {
     #sidebar {
-        background:#f5f5f5;
+        background:$semi_transparent_background_color;
+        opacity:$inner_opacity;
         border-radius:$pane_border_radius;
         float: left;
         width: 21.53846153846154%;
@@ -1572,7 +1578,8 @@ ol.toc {
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     #sidebar {
-        background:#f5f5f5;
+        background:$semi_transparent_background_color;
+        opacity:$inner_opacity;
         float: left;
         width: 29.230769230769234%;
         margin: 0 0.769230769230769%;
@@ -1746,7 +1753,8 @@ ol.toc {
     overflow:scroll;
     margin-top: 40px;
     padding: 10px 0px 10px 10px;
-    background:#f5f5f5;
+    background:$semi_transparent_background_color;
+    opacity:$inner_opacity;
     ul {
         margin:0;
         padding-left:15px;
