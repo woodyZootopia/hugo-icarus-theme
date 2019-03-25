@@ -1,8 +1,11 @@
 <footer class="article-footer">
-    <a data-url="{{ .Permalink }}" data-id="{{ .UniqueID }}" class="article-share-link">
-        <i class="fa fa-share"></i>
-        {{with .Site.Data.l10n.articles.share}}{{.}}{{end}}
-    </a>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwoodyzootopia.github.io%2F&layout=box_count&size=small&width=61&height=40&appId" width="61" height="40" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+    <!-- <a data-url="{{ .Permalink }}" data-id="{{ .UniqueID }}" class="article-share-link"> -->
+    <!--     <i class="fa fa-share"></i> -->
+    <!--     {{with .Site.Data.l10n.articles.share}}{{.}}{{end}} -->
+    <!-- </a> -->
     {{ if and (not (eq .Site.DisqusShortname "")) (not .Params.disable_comments) }}
     <a href="{{ .Permalink }}#disqus_thread" class="article-comment-link">
         {{with .Site.Data.l10n.articles.comments}}{{.}}{{end}}
