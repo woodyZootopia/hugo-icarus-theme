@@ -61,7 +61,8 @@ body,
     height: 100%;
 }
 body {
-    background-image: url(../img/20288-gyrosigma-light-blue-background.jpg);
+    // background-image: url(../img/20288-gyrosigma-light-blue-background.jpg);
+    background: #F7F3EE;
     font: $font;
     -webkit-text-size-adjust: 100%;
 }
@@ -677,8 +678,7 @@ pre.chroma {
 }
 #profile .inner {
     margin-top: 40px;
-    background: #f5f5f5;
-    background: radial-gradient(circle at 50% 20%, #fff,#fff 21%, #f5f5f5 30%);
+    background: #fff;
 }
 #profile .inner .base-info #avatar {
     display: block;
