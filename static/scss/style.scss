@@ -1,4 +1,4 @@
-$font:17px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+$font:15px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 $primary_color:#f0f0f0;
 $body_char_color:#000;
 $dark_gray_char_color:#4b5053;
@@ -1785,4 +1785,7 @@ ul {
 }
 .profile-inner {
     border-radius:$pane_border_radius;
+}
+.footnotes {
+    font: 13px;
 }

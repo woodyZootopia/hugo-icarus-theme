@@ -67,7 +67,7 @@ body,
 /* line 63, ../scss/style.scss */
 body {
   background: #F7F3EE;
-  font: 17px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font: 15px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -755,7 +755,7 @@ pre.chroma {
   line-height: 1.6em;
   outline: none !important;
   background: none !important;
-  font: 17px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font: 15px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   border: 1px solid #eceff2 !important;
 }
 
@@ -2344,4 +2344,9 @@ ul ul ul ul {
 /* line 1786, ../scss/style.scss */
 .profile-inner {
   border-radius: 30px;
+}
+
+/* line 1789, ../scss/style.scss */
+.footnotes {
+  font: 13px;
 }
