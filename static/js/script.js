@@ -54,3 +54,16 @@
     }
 
 })(jQuery);
+
+function addFileNameBeforeCode(){
+    var codes = document.getElementsByClassName('chroma');
+    console.log(codes);
+    for(var item of codes){
+        if(item.children[0]){
+            item.insertAdjacentHTML('afterbegin','<span class = "fileName">'+ item.children[0].getAttribute("data-lang") +'</span><br>');
+            item.innerHTML= '<div class="longCode">' + item.innerHTML + "</div>";
+        }
+    }
+}
+
+window.onload= addFileNameBeforeCode;
